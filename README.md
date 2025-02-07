@@ -4,12 +4,13 @@
 
 ```bash
 mkdir ~/.ssh/
-mkdir ~/.ssh/keys/
-# insert keys
-sudo chmod -R 700 ~/.ssh/keys/
-vim ~/.ssh/config
+echo include ~/.configs/ssh.conf > ~/.ssh/config
+sudo chmod -R 600 ~/.ssh/
 ```
-~/.ssh/config
-```conf
-include ~/.configs/ssh.conf
+
+## vim
+
+```bash
+echo source ~/.configs/vim.conf > ~/vimnrc
 ```
+
