@@ -5,7 +5,8 @@
 ```bash
 mkdir ~/.ssh/
 echo include ~/.configs/ssh.conf > ~/.ssh/config
-sudo chmod -R 600 ~/.ssh/
+sudo chmod 700 ~/.ssh/
+sudo chmod 600 ~/.ssh/*
 ```
 
 ## vim
