@@ -12,6 +12,6 @@ sudo chmod 600 ~/.ssh/*
 ## vim
 
 ```bash
-echo source ~/.configs/vim.conf > ~/.vimnrc
+echo source ~/.configs/vim.conf > ~/.vimrc
 ```
 
